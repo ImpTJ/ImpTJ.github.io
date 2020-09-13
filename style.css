@@ -2,18 +2,52 @@
 	margin: 0;
 	padding: 0;
 	font-family: Verdana;
+	color: #566776;
+}
+
+body {
+	background: url("img/background-edited.png") no-repeat center center fixed;
+	background-size: cover;
 }
 
 .jumbotron {
-	background-color: #fff;
+	background-color: transparent;
 }
 
 .container {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	padding: 2em;
-	border: 2px solid #000;
+	background-color: #fff;
+	border: 2px solid #566776;
 	border-radius: 1em;
+}
+
+.container h2 {
+	padding-bottom: 1em;
+}
+
+#header-section #my-photo {
+	position: relative;
+	z-index: 1;
+	max-width: 256px;
+	height: auto;
+}
+
+#header-section #title-section {
+	background-color: #fff;
+	border-radius: 10em;
+}
+
+#header-section #header-title {
+	padding: 0.5em 0 0.5em 0;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#header-section #header-subtitle {
+	padding-bottom: 1em;
+	font-size: 24px;
 }
 
 #projects-section #previews-section {
@@ -23,9 +57,18 @@
 #projects-section .project-preview {
 	max-width: 75%;
 	height: auto;
+	border-radius: 1em;
 }
 
 footer {
 	text-align: center;
 	margin-bottom: 2em;
 }
+
+
+
+
+
+
+
+
