@@ -72,6 +72,14 @@ body {
 	border-radius: 1em;
 }
 
+#contact-section .social-section {
+	text-align: center;
+}
+
+#contact-section .social-icons {
+	font-size: 36px;
+}
+
 footer {
 	text-align: center;
 	margin-bottom: 2em;
